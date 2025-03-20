@@ -1,4 +1,4 @@
-package bincache
+package geecache
 
 // ByteView is a view of bytes
 type ByteView struct {

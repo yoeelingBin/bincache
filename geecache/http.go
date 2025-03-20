@@ -1,15 +1,16 @@
-package bincache
+package geecache
 
 import (
-	"bincache/consistenthash"
 	"fmt"
-	pb "geecache/geecachepb"
 	"io"
 	"log"
 	"net/http"
 	"net/url"
 	"strings"
 	"sync"
+
+	"github.com/yoeelingBin/bincache/geecache/consistenthash"
+	pb "github.com/yoeelingBin/bincache/geecache/geecachepb"
 
 	"google.golang.org/protobuf/proto"
 )

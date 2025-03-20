@@ -1,4 +1,4 @@
-package bincache
+package geecache
 
 import (
 	"fmt"

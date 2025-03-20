@@ -1,9 +1,9 @@
-package bincache
+package geecache
 
 import (
 	"sync"
 
-	"github.com/yoeelingBin/bincache/lru"
+	"github.com/yoeelingBin/bincache/geecache/lru"
 )
 
 type cache struct {

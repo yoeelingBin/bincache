@@ -1,11 +1,12 @@
-package bincache
+package geecache
 
 import (
 	"fmt"
-	pb "geecache/geecachepb"
-	"geecache/singleflight"
 	"log"
 	"sync"
+
+	pb "github.com/yoeelingBin/bincache/geecache/geecachepb"
+	"github.com/yoeelingBin/bincache/geecache/singleflight"
 )
 
 // Getter is the interface to load data of the key
